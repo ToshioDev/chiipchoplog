@@ -1,0 +1,11 @@
+name: CombatLog
+version: 1.0-SNAPSHOT
+main: mc.nekocraft.Main
+api-version: 1.21
+
+commands:
+  combatlog:
+    description: Main command for CombatLog plugin.
+    usage: /<command> list [gui|recover <player>]
+    permission: combatlog.list
+    permission-message: You do not have permission to use this command.
